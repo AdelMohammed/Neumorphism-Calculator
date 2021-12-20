@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphism Calculator</title>
+    <link rel="stylesheet" href="nm.css">
+    <script src="nm.js"></script>
+</head>
+<body>
+    <div class="container">
+      <div class="result">
+        <p id="result-box" data-placeholder="0"></p>
+      </div>
+      <div class="buttons">
+        <div class="button action-btn" id="clear" onclick="clearInput()"> AC </div>
+        <div class="button action-btn" id="clear2" onclick = "CE()"> CE</div>
+        <div class="button num-button number action-btn" onclick = "n_O(this)"> %</div>
+        <div class="button num-button number calc-action-btn" onclick = "n_O(this)"> /</div>
+        <div class="button num-button number seven" onclick = "n_O(this)">7</div>
+        <div class="button num-button number eight" onclick = "n_O(this)">8</div>
+        <div class="button num-button number nine" onclick = "n_O(this)">9</div>
+        <div class="button num-button number calc-action-btn" onclick = "n_O(this)">*</div>
+        <div class="button num-button number four" onclick = "n_O(this)">4</div>
+        <div class="button num-button number five" onclick = "n_O(this)">5</div>
+        <div class="button num-button number six" onclick = "n_O(this)">6</div>
+        <div class="button num-button number calc-action-btn" onclick = "n_O(this)">-</div>
+        <div class="button num-button number one" onclick = "n_O(this)">1</div>
+        <div class="button num-button number two" onclick = "n_O(this)">2</div>
+        <div class="button num-button number three" onclick = "n_O(this)">3</div>
+        <div class="button num-button number calc-action-btn" onclick = "n_O(this)">+</div>
+        <div class="button num-button number zero" onclick = "n_O(this)">0</div>
+        <div class="button num-button number point" onclick = "n_O(this)">.</div>
+        <div class="button calc-action-btn" id="total" onclick = "ev()">=</div>
+      </div>
+  
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js'></script>
+  </body>
+</html>
